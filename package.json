@@ -6,7 +6,10 @@
   },
   "main": "/index.js",
   "devDependencies": {
-    "react-scripts": "1.0.0"
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "eslint": "^8.47.0",
+    "eslint-plugin-react": "^7.33.1",
+    "react-scripts": "^5.0.0"
   },
   "name": "lclcg7",
   "description": null,
@@ -16,5 +19,17 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

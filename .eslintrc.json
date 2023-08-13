@@ -6,7 +6,7 @@
     "extends": "plugin:react/recommended",
     "parserOptions": {
         "sourceType": "module",
-        "ecmaVersion": 2020,
+        "ecmaVersion": 2023,
         "ecmaFeatures": {
             "jsx": true
         }
@@ -15,7 +15,8 @@
         "react"
     ],
     "rules": {
-        "react/prop-types": "off"
+        "react/prop-types": "off",
+        "react/react-in-jsx-scope": "off"
     },
     "settings": {
     "react": {
